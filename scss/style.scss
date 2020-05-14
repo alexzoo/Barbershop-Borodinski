@@ -1,1 +1,36 @@
 @import 'reset';
+
+body {
+	font-family: 'PT Sans Narrow', sans-serif;
+}
+
+.container {
+	width: 960px;
+	margin: 0 auto;
+}
+
+.header {
+	// background: url('/img/header-background.png') center center/cover no-repeat;
+	background-color: #000;
+	padding: 29px 0 29px;
+	// .header__menu
+	&__menu {
+	}
+	// .header__menu-list
+	&__menu-list {
+		display: flex;
+		justify-content: space-between;
+	}
+	// .header__menu-link
+	&__menu-link {
+		color: #ffffff;
+		font-size: 18px;
+		font-weight: 400;
+		line-height: 24px;
+		text-transform: uppercase;
+		display: flex;
+	}
+	&__menu-link-login {
+		margin-left: 20px;
+	}
+}
