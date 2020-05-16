@@ -63,6 +63,7 @@ body {
 	&__low-row {
 		display: flex;
 		height: 160px;
+		position: relative;
 	}
 	// .header__column
 	&__column {
@@ -107,4 +108,15 @@ body {
 	&__wrapper {
 		margin: 32px 0 0 37px;
 	}
+}
+
+.arrow-down {
+	position: absolute;
+	top: 37px;
+	left: -20px;
+	width: 0;
+	height: 0;
+	border-left: 20px solid transparent;
+	border-right: 20px solid transparent;
+	border-top: 20px solid #fff;
 }
